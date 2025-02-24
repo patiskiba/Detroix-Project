@@ -1,0 +1,35 @@
+.helpBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A0B31;
+    color: #939399;
+}
+
+.helpNav {
+    flex-direction: row;
+    display: flex;
+}
+
+.mainBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.mainNav {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainNav p {
+    background-color: #0A0B31;
+    color: #F1F3F5;
+}
+
+.landingImage {
+    width: 90%;
+    border-radius: 10px;
+}
