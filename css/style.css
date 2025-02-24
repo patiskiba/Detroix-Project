@@ -1,4 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .helpBanner {
+    padding-left: 15%;
+    padding-right: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,12 +18,23 @@
 }
 
 .mainBanner {
+    padding-left: 15%;
+    padding-right: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
     margin: auto;
+    background-color: #F1F3F5;
 }
+
+.logo {
+    font-family: "Macondo Swash Caps", 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.logoAccent {
+    color: #F98C00;
+}
+
 
 .mainNav {
     display: flex;
@@ -29,7 +46,56 @@
     color: #F1F3F5;
 }
 
+
+.landingSection {
+    position: relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #F1F3F5;
+}
+
 .landingImage {
-    width: 90%;
+    max-width: 1050px;
+    
     border-radius: 10px;
+}
+
+
+.landingText {
+    padding-left: 15%;
+    padding-right: 15%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.landingButton {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F98C00;
+}
+
+.selectionCircles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .5em;
+    margin: 10px;
+    
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #a8a8a8;
+    outline-color: rgb(59, 59, 59);
+    outline-width: 2px;
+    outline-style: solid;
+    
+}
+
+.circle:nth-child(1) {
+    background-color: rgb(59, 59, 59);
 }
