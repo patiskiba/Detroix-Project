@@ -10,11 +10,15 @@ body {
     justify-content: space-between;
     background-color: #0A0B31;
     color: #939399;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .helpNav {
     flex-direction: row;
     display: flex;
+    gap: .2rem;
 }
 
 .mainBanner {
@@ -93,10 +97,12 @@ body {
 
 .landingButton {
     margin-left: 20px;
+    margin-top: 50px;
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
     background-color: #F98C00;
+    font-weight: bold;
 }
 
 .selectionCircles {
