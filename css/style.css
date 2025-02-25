@@ -136,6 +136,7 @@ body {
     padding-right: 15%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #F1F3F5;
 }
 
@@ -145,23 +146,41 @@ body {
     padding: 10px;
 }
 
-.cardImage1 {
+.cardTitle {
+    color: #0A0B31;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.cardImage {
     height: 100px;
-    width: 250px;
+    width: 275px;
+    border-radius: 10px;
+}
+
+.cardImage1 {
+    
     background-image: url(../images/cardimage1.png);
     background-color: #0A0B31;
 }
 
 .cardImage2 {
-    height: 100px;
-    width: 250px;
     background-image: url(../images/cardimage2.png);
     background-color: #0A0B31;
 }
 
 .cardImage3 {
-    height: 100px;
-    width: 250px;
     background-image: url(../images/cardimage3.png);
     background-color: #0A0B31;
+}
+
+.cardButton {
+    display: inline-block;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #0A0B31;
+    color: #F1F3F5;
 }
