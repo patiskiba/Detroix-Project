@@ -144,6 +144,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    border-top: 2px #a8a8a8 solid;
 }
 
 .cardTitle {
@@ -152,10 +153,16 @@ body {
     text-transform: uppercase;
 }
 
+.cardDescription {
+    color: #252525;
+    
+}
+
 .cardImage {
     height: 100px;
     width: 275px;
     border-radius: 10px;
+    margin-bottom: 16px;
 }
 
 .cardImage1 {
@@ -184,3 +191,7 @@ body {
     background-color: #0A0B31;
     color: #F1F3F5;
 }
+
+.card + .card {
+    border-left: 2px #a8a8a8 solid;
+  }
