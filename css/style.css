@@ -196,7 +196,38 @@ body {
     border-left: 2px #a8a8a8 solid;
   }
 
+.bottomSection {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: space-between;
+}
+
+.list {
+    display: list-item;
+    list-style-type: '⚙️';
+}
+    
+
+
+.opportunitiesCardTitle-Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsCard {
+    display: flex;
+    flex-direction: row;
+}
+.newsCard-Date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .bottomSectionButton {
+    
     width: fit-content;
     padding: 12px;
     border-radius: 10px;
