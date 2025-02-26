@@ -199,9 +199,28 @@ body {
 .bottomSection {
     display: flex;
     flex-direction: row;
+    padding-top: 24px;
     padding-left: 15%;
     padding-right: 15%;
     justify-content: space-between;
+    background: rgb(9,11,55);
+    background: linear-gradient(175deg, rgba(9,11,55,1) 0%, rgba(7,16,25,1) 62%);
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* Make all three containers of bottomSection the same width */
+.servicesContainer, .opportunitiesContainer, .newsContainer {
+    flex: 1;
+}
+
+.bottomSectionTitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .list {
@@ -209,7 +228,9 @@ body {
     list-style-type: '⚙️';
 }
     
-
+.list, .opportunitiesCard-Paragraph, .newsCard-Text-Paragraph {
+    color: #cbcbcb;
+}
 
 .opportunitiesCardTitle-Container {
     display: flex;
@@ -224,7 +245,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-color: blueviolet; */
 }
+
+.newsCard-Date1 {
+    background-color: #BE8542;
+}
+.newsCard-Date2 {
+    background-color: #BC6241;
+}
+.newsCard-Date3 {
+    background-color: #BD425E;
+}
+
 
 .bottomSectionButton {
     
@@ -233,6 +266,7 @@ body {
     border-radius: 10px;
     text-transform: uppercase;
     font-size: 20px;
-    background-color: #0A0B31;
+    background-color: #213349;
     color: #F1F3F5;
 }
+
