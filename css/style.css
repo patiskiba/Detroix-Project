@@ -214,7 +214,12 @@ body {
 
 /* Make all three containers of bottomSection the same width */
 .servicesContainer, .opportunitiesContainer, .newsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 1;
+    padding: 10px;
+    height: 600px;
 }
 
 .bottomSectionTitle {
@@ -240,12 +245,16 @@ body {
 .newsCard {
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 .newsCard-Date {
     display: flex;
+    height: fit-content;
     flex-direction: column;
     justify-content: center;
-    /* background-color: blueviolet; */
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 10px;
 }
 
 .newsCard-Date1 {
@@ -256,6 +265,18 @@ body {
 }
 .newsCard-Date3 {
     background-color: #BD425E;
+}
+
+.day {
+    font-size: 48px;
+    display: inline-block;
+    margin: 0px;
+}
+.month {
+    font-size: 28px;
+    display: inline-block;
+    margin: 0px;
+    font-weight: 300;
 }
 
 
@@ -270,3 +291,17 @@ body {
     color: #F1F3F5;
 }
 
+footer {
+    padding-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0A0B31;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0px;
+    
+}
+footer p {
+    margin: 0px;
+}
